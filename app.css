@@ -1,0 +1,140 @@
+
+html{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif; 
+    
+}
+
+html,body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 75%;
+    background-repeat: repeat-x;
+    margin: auto;
+    
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 50px;
+    
+}
+
+
+main{
+    background-color: #fff;
+    width: 450px;
+    max-width: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.Dark-blue{
+    color: hsl(223, 47%, 23%);
+}
+
+img.music-icon{
+    float: left;
+    margin-left: 20px;
+    width: 13%;
+    padding: 0 10px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+section.pale-blue{
+    background-color: hsl(225, 100%, 98%);
+    margin: 25px;
+    max-width: 100%;
+    border-radius: 20px;
+    
+}
+
+.break-text{
+    width: 65%;
+    margin: auto;
+    line-height: 2;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change{
+    position: relative;
+    bottom: 60px;
+    float: right;
+    padding-right: 30px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+
+h3{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
+
+p.plan{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    position: relative;
+    bottom: 15px;
+}
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    width: 85%;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 15px;
+    border-style: none;
+    font-family:'Red Hat Display', sans-serif; 
+    font-weight: 700;
+    margin-top: 10px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+
+.desaturated-blue.is-featured{
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif; 
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+@media screen and (min-width: 800px){
+    main{
+        flex-direction: row;
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: repeat-x;
+    }
+}
+
+@media  screen and (min-width: 800px) {
+    .desktop{
+        flex-direction: column;
+       
+    }
+}
